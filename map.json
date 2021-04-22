@@ -55,11 +55,6 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.ardmediathek.de\/video\/ard-klassik\/schumann-symphonie-nr-3\/ard-de\/Y3JpZDovL3N3ci5kZS9hZXgvbzE0Mzg2NTU\/"
-                }, 
-                {
-                 "name":"openWebsiteTrigger",
-                 "type":"string",
-                 "value":"onaction"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -273,7 +268,52 @@
                         }]
                 }, 
                 {
+                 "id":152,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
                  "id":160,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":168,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":184,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":185,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":186,
                  "properties":[
                         {
                          "name":"collides",
