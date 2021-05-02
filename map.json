@@ -77,12 +77,12 @@
                          "type":"string",
                          "value":"popup"
                         }],
-                 "rotation":0,
+                 "rotation":0.13821251930807,
                  "type":"",
                  "visible":true,
                  "width":602.115047494802,
-                 "x":464.769048880917,
-                 "y":334.780871621346
+                 "x":449.894241723432,
+                 "y":345.960128437033
                 }, 
                 {
                  "height":0,
@@ -94,14 +94,64 @@
                  "width":0,
                  "x":234.223979779037,
                  "y":1052.16845366709
+                }, 
+                {
+                 "height":0,
+                 "id":6,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":441.666666666667,
+                 "y":-120.238095238095
+                }, 
+                {
+                 "height":432.142857142857,
+                 "id":7,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":375,
+                 "x":580.952380952381,
+                 "y":397.619047619048
+                }, 
+                {
+                 "height":0,
+                 "id":8,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":611.904761904762,
+                 "y":510.714285714286
+                }, 
+                {
+                 "height":7.14285714285717,
+                 "id":9,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":0,
+                 "x":525,
+                 "y":372.619047619048
+                }, 
+                {
+                 "height":433.333333333333,
+                 "id":10,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":555.952380952381,
+                 "x":494.047619047619,
+                 "y":389.285714285714
                 }],
          "opacity":1,
          "properties":[
-                {
-                 "name":"silent",
-                 "type":"bool",
-                 "value":true
-                }, 
                 {
                  "name":"zone",
                  "type":"string",
@@ -208,7 +258,7 @@
          "y":0
         }],
  "nextlayerid":18,
- "nextobjectid":6,
+ "nextobjectid":11,
  "orientation":"orthogonal",
  "properties":[
         {
