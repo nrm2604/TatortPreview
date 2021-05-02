@@ -1,15 +1,8 @@
-class Popup {
-    /**
-     * Closes the popup
-     */
-    close() { };
-}
-
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.onEnterZone('popup', () => {
-    WA.openPopup("popupRectangle", 'Hello world!', [{
+helloWorldPopup = WA.onEnterZone('myZone', () => {
+    WA.openPopup("popupRectangle", 'https://vimeo.com/event/949260/embed/90aa3a1dd0%22', [{
         label: "Close",
         className: "primary",
         callback: (popup) => {
@@ -20,6 +13,5 @@ helloWorldPopup = WA.onEnterZone('popup', () => {
 }]);
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('popup', () => {
+WA.onLeaveZone('myZone', () => {
     helloWorldPopup.close();
-});
