@@ -243,6 +243,12 @@
                  "y":169.047619047619
                 }],
          "opacity":1,
+         "properties":[
+                {
+                 "name":"targetObject",
+                 "type":"string",
+                 "value":"popupRectangle"
+                }],
          "type":"objectgroup",
          "visible":true,
          "x":0,
