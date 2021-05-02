@@ -98,9 +98,14 @@
                  "value":"https:\/\/vimeo.com\/event\/949260\/embed\/90aa3a1dd0%22"
                 }, 
                 {
+                 "name":"opneWebsitePolicy",
+                 "type":"string",
+                 "value":"fullscreen"
+                }, 
+                {
                  "name":"silent",
                  "type":"bool",
-                 "value":false
+                 "value":true
                 }],
          "type":"tilelayer",
          "visible":true,
