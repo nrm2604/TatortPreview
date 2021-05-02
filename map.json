@@ -206,7 +206,7 @@
         {
          "draworder":"topdown",
          "id":20,
-         "name":"popupRectangle",
+         "name":"Popup",
          "objects":[
                 {
                  "height":366.666666666667,
