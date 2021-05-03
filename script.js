@@ -1,15 +1,15 @@
-let helloWorldPopup;
+let streampopup;
 
 // Open the Website when we enter a given zone
 
-helloWorldPopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openCoWebsite("http://localhost/streampopup.html", [{
+streampopup = WA.onEnterZone('StreamingZone', () => {
+    WA.openCoWebsite("streampopup.html", [{
         
 
 // Close Website when we leave the zone.
 
 WA.onLeaveZone('StreamingZone', () => {
-    helloWorldPopup.close();
+    streampopup.close();
 });
 
 
