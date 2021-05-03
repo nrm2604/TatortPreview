@@ -9,8 +9,8 @@ helloWorldPopup = WA.onEnterZone('StreamingZone', () => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    });
-}]);
+    }]);
+});
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('StreamingZone', () => {
