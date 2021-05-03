@@ -1,7 +1,7 @@
-let helloWorldPopup;
+let StreamPopup;
 
 // Open the popup when we enter a given zone
-helloWorldPopup = WA.onEnterZone('StreamingZone', () => {
+StreamPopup = WA.onEnterZone('StreamingZone', () => {
     WA.openPopup("popupRectangle", '', [{
         label: "Schlie&#223en",
         className: "primary",
@@ -16,7 +16,7 @@ WA.goToPage("https://vimeo.com/event/949260/embed/90aa3a1dd0")])
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('StreamingZone', () => {
-    popup.close();
+    StreamPopup.close();
 });
 
 
