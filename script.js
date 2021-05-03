@@ -21,7 +21,8 @@ WA.onLeaveZone('StreamingZone', () => {
 });
 
 
-let StreamTab
+let StreamTab;
+
 StreamTab = WA.onEnterZone('TabZone', () => {
     WA.openTab('https://vimeo.com/event/949260/embed/90aa3a1dd0')
 });
