@@ -9,7 +9,7 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    }
+    }]
 });
 
 
