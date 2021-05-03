@@ -2,15 +2,17 @@ let helloWorldPopup;
 
 // Open the popup when we enter a given zone
 helloWorldPopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openPopup("popupRectangle", goToPage("https://vimeo.com/event/949260/embed/90aa3a1dd0"), [{
+    WA.openPopup("popupRectangle", '', [{
         label: "Schlie&#223en",
         className: "primary",
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    }])
+    }
+WA.goToPage("https://vimeo.com/event/949260/embed/90aa3a1dd0")])
 });
+
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('StreamingZone', () => {
