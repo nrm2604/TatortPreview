@@ -1,17 +1,25 @@
+class Popup {
+    /**
+     * Closes the popup
+     */
+    close() { };
+}
+
+
 let StreamPopup;
 
 // Open the popup when we enter a given zone
+
 StreamPopup = WA.onEnterZone('StreamingZone', () => {
     WA.openPopup("popupRectangle", 'Wir können auch Popup!'), [{
         label: "Schliessen",
         className: "primary",
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
-
             popup.close();
 
         }
-    }]
+    }];
 });
 
 
