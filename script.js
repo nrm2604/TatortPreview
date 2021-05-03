@@ -11,7 +11,7 @@ let StreamPopup;
 // Open the popup when we enter a given zone
 
 StreamPopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openPopup("popupRectangle", 'Wir können auch Popup!'), [{
+    WA.openPopup("popupRectangle", 'Wir können auch Popup!', [{
         label: "Schliessen",
         className: "primary",
         callback: (popup) => {
@@ -19,7 +19,7 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
             popup.close();
 
         }
-    }];
+    }]);
 });
 
 
