@@ -8,7 +8,7 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
         callback: (popup) => {
             // Close the popup when the "Close" button is pressed.
 
-            WA.closeCoWebSite();
+            WA.closeTab();
             popup.close();
 
         }
@@ -18,7 +18,7 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('StreamingZone', () => {
-    closeCoWebSite();
+    WA.closeTab();
     StreamPopup.close();
 });
 
