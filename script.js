@@ -1,10 +1,23 @@
-let streampopup;
+let helloWorldPopup;
 
-// Open the Website when we enter a given zone
+// Open the popup when we enter a given zone
+helloWorldPopup = WA.onEnterZone('StreamingZone', () => {
+    WA.openPopup("popupRectangle", 'Hello world!', [{
+        label: "Close",
+        className: "primary",
+        callback: (popup) => {
+            // Close the popup when the "Close" button is pressed.
+            popup.close();
+        }
+    });
+}]);
 
-streampopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openCoWebSite("https://github.com/nrm2604/TatortPreview/streampopup.html");
-        });
+// Close the popup when we leave the zone.
+WA.onLeaveZone('StreamingZone', () => {
+    helloWorldPopup.close();
+});
+
+
 
 let Exit;
 
