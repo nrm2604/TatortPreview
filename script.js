@@ -17,14 +17,15 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
 
 // Close the popup when we leave the zone.
 WA.onLeaveZone('StreamingZone', () => {
-    WA.closeTab();
     StreamPopup.close();
 });
+
 
 let StreamTab
 StreamTab = WA.onEnterZone('TabZone', () => {
     WA.openTab('https://vimeo.com/event/949260/embed/90aa3a1dd0')
 });
+
 
 let Exit;
 
