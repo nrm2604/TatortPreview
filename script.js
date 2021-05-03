@@ -2,7 +2,7 @@ let StreamPopup;
 
 // Open the popup when we enter a given zone
 StreamPopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openPopup("popupRectangle", '', [{
+    WA.openPopup("popupRectangle", 'Test-Popup', [{
         label: "Schlie&#223en",
         className: "primary",
         callback: (popup) => {
@@ -10,7 +10,6 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
             popup.close();
         }
     }
-WA.goToPage("https://vimeo.com/event/949260/embed/90aa3a1dd0")])
 });
 
 
