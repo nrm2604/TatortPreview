@@ -3,10 +3,8 @@ let streampopup;
 // Open the Website when we enter a given zone
 
 streampopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openCoWebSite("streampopup.html");
+    WA.openCoWebSite("https://github.com/nrm2604/TatortPreview/streampopup.html");
         });
-
-console.log("TEST");
 
 let Exit;
 
