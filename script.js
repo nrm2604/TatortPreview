@@ -3,10 +3,10 @@ let streampopup;
 // Open the Website when we enter a given zone
 
 streampopup = WA.onEnterZone('StreamingZone', () => {
-    WA.openCoWebsite("streampopup.html");
+    WA.openCoWebSite("streampopup.html");
         });
-        
 
+console.log("TEST");
 
 let Exit;
 
