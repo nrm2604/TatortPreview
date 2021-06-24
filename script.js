@@ -10,7 +10,7 @@ let StreamPopup;
 
 // Open the popup when we enter a given zone
 
-StreamPopup = WA.onEnterZone('StreamingZone', () => {
+StreamPopup = WA.onEnterZone('PopupZone', () => {
     WA.openPopup("popupRectangle", 'Wir können auch Popup!', [{
         label: "Schliessen",
         className: "primary",
@@ -24,7 +24,7 @@ StreamPopup = WA.onEnterZone('StreamingZone', () => {
 
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('StreamingZone', () => {
+WA.onLeaveZone('PopupZone', () => {
     StreamPopup.close();
 });
 
